@@ -1,0 +1,40 @@
+{
+  "name": "pepelaz-test",
+  "version": "5.0.0-beta.0",
+  "description": "Test support for pepelaz library",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvdsfif/pepelaz-db.git"
+  },
+  "keywords": [
+    "typescript",
+    "postgres"
+  ],
+  "author": "Nikit Zykov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cvdsfif/pepelaz-test/issues"
+  },
+  "homepage": "https://github.com/cvdsfif/pepelaz-test#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "jest": "^29.7.0",
+    "pepelaz": "^4.0.0-beta.7",
+    "pepelaz-db": "^5.0.0-beta.1",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "ulid": "^2.3.0"
+  }
+}
